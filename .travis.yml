@@ -20,7 +20,7 @@ matrix:
     arch: arm64-graviton2
     virt: lxd
     group: edge
-  
+
   - name: "amd64 - Bionic - clang"
     os: linux
     dist: bionic
@@ -33,7 +33,7 @@ matrix:
     arch: arm64-graviton2
     virt: lxd
     group: edge
-  
+
   - name: "amd64 - Focal - gcc"
     os: linux
     dist: focal
@@ -46,7 +46,7 @@ matrix:
     arch: arm64-graviton2
     virt: lxd
     group: edge
-  
+
   - name: "amd64 - Focal - clang"
     os: linux
     dist: focal
@@ -59,7 +59,7 @@ matrix:
     arch: arm64-graviton2
     virt: lxd
     group: edge
-  
+
   - name: "Coverity: amd64 - Focal - gcc"
     os: linux
     dist: focal
