@@ -37,7 +37,7 @@ matrix:
     dist: focal
     compiler: gcc
     arch: amd64
-   name: "amd64 - Focal - gcc"
+  - name: "amd64 - Focal - gcc"
     os: linux
     dist: focal
     compiler: gcc
